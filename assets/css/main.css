@@ -3072,6 +3072,8 @@ input, select, textarea {
 
 /* Header */
 
+	
+
 	#header {
 		-moz-transition: background-color 0.2s ease-in-out;
 		-webkit-transition: background-color 0.2s ease-in-out;
@@ -3378,6 +3380,8 @@ input, select, textarea {
 
 /* Banner */
 
+	
+
 	#banner {
 		padding: 10em 0 4.75em 0 ;
 	}
@@ -3386,6 +3390,7 @@ input, select, textarea {
 			margin: 0 auto;
 			width: 55em;
 		}
+
 
 		#banner .logo {
 			-moz-transition: opacity 2s ease, -moz-transform 1s ease;
@@ -3400,12 +3405,12 @@ input, select, textarea {
 			margin: 0 0 1.3em 0;
 		}
 
-			#banner .logo .fa-solid {
+			#banner .logo .fa-code {
 				border-radius: 100%;
 				border: solid 2px rgba(255, 255, 255, 0.125);
 				cursor: default;
 				display: inline-block;
-				font-size: 2em;
+				font-size: 2.5em;
 				height: 2.25em;
 				line-height: 2.25em;
 				text-align: center;
@@ -3436,7 +3441,7 @@ input, select, textarea {
 			padding-bottom: 0.4em;
 		}
 
-		#banner p {
+		#banner .tech-logo {
 			-moz-transition: opacity 0.5s ease, -moz-transform 0.5s ease, -moz-filter 0.25s ease;
 			-webkit-transition: opacity 0.5s ease, -webkit-transform 0.5s ease, -webkit-filter 0.25s ease;
 			-ms-transition: opacity 0.5s ease, -ms-transform 0.5s ease, -ms-filter 0.25s ease;
@@ -3455,7 +3460,7 @@ input, select, textarea {
 			filter: blur(0);
 			opacity: 1;
 			font-family: Raleway, Helvetica, sans-serif;
-			font-size: 1em;
+			font-size: 2em;
 			font-weight: 200;
 			letter-spacing: 0.1em;
 			line-height: 2;
@@ -3537,7 +3542,7 @@ input, select, textarea {
 			filter: blur(2px);
 		}
 
-		body.is-preload #banner p {
+		body.is-preload #banner .tech-logo {
 			opacity: 0;
 			-moz-transform: translateX(0.5em);
 			-webkit-transform: translateX(0.5em);
