@@ -33,8 +33,9 @@
 							<h2>Menu</h2>
 							<ul class="links">
 								<li><a href="index.html">Home</a></li>
-								<li><a href="generic.html">About Me</a></li>
-								<li><a href="elements.html">My Work</a></li>
+								<li><a href="#about-me">About Me</a></li>
+								<li><a href="#recent-projects">Recent Projects</a></li>
+								<li><a href="#get-in-touch">Contact</a></li>
 							</ul>
 							<a href="#" class="close">Close</a>
 						</div>
@@ -51,6 +52,8 @@
 								<i class="devicon-express-original"></i>
 								<i class="devicon-npm-original-wordmark"></i>
 								<i class="devicon-react-original-wordmark"></i>
+								<i class="devicon-swift-plain"></i>
+								<i class="devicon-xcode-plain"></i>
 								<i class="devicon-git-plain"></i>
 								<i class="devicon-html5-plain-wordmark"></i>
 								<i class="devicon-css3-plain-wordmark"></i>
@@ -65,11 +68,12 @@
 					<section id="wrapper">
 
 						<!-- One -->
-							<section id="one" class="wrapper spotlight style1">
-								<div class="inner">
-									<a href="#" class="image"><img src="images/headshot.jpg" alt="" /></a>
+							<section id="one" class="wrapper spotlight style1" >
+								<div class="inner" id="about-me">
+									<a href="" class="image"><img src="images/headshot.jpg" alt="" /></a>
+									
 									<div class="content">
-										<h2 class="major">About Me</h2>
+										<h2 class="major" >About Me</h2>
 										<p>
 											I'm a software engineer focused on full-stack web development. 
 											I help people build modern, responsive, accessible web applications.
@@ -116,38 +120,42 @@
 
 						<!-- Four -->
 							<section id="four" class="wrapper alt style1">
-								<div class="inner">
+								<div class="inner" id="recent-projects">
 									<h2 class="major">Recent Projects</h2>
 									<p></p>
 									<section class="features">
+										
+										<article>
+											<a href="https://apps.apple.com/us/app/exo-a-fast-paced-single-player-tic-tac-toe-game/id1116416783?uo=4&at=11l6hc&app=itunes&ct=fnd" class="image"><img src="images/exo-icon.png" alt="" /></a>
+											<h3 class="major">Exo</h3>
+											<p>Swift, XCode - A fast-paced iOS game featuring a great soundtrack and challenging AI.</p>
+											<a href="https://apps.apple.com/us/app/exo-a-fast-paced-single-player-tic-tac-toe-game/id1116416783?uo=4&at=11l6hc&app=itunes&ct=fnd" class="special">Learn more</a>
+										</article>
+
+										<article>
+											<a href="" class="image"><img src="images/dnd-spellbook.png" alt="" /></a>
+											<h3 class="major">Dungeons & Dragons Spellbook</h3>
+											<p>Node, Express, EJS, MongoDB, and Passport - A full stack D&D spell book that allows you to search for and add spells to your personal spellbook.</p>
+											<a href="#" class="special">Check it out</a>
+										</article>
+
 										<article>
 											<a href="https://timely-cuchufli-e7ddc8.netlify.app" class="image"><img src="images/vin.png" alt="" /></a>
 											<h3 class="major">Vin.</h3>
 											<p>HTML5, CSS3 and JavaScript - An example site for a small busines or restaurant.</p>
 											<a href="https://timely-cuchufli-e7ddc8.netlify.app" class="special">Check it out</a>
 										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic05.jpg" alt="" /></a>
-											<h3 class="major">Nisl placerat</h3>
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus ultrices.</p>
-											<a href="#" class="special">Learn more</a>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic06.jpg" alt="" /></a>
-											<h3 class="major">Ante fermentum</h3>
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus ultrices.</p>
-											<a href="#" class="special">Learn more</a>
-										</article>
+										
+									<!--
 										<article>
 											<a href="#" class="image"><img src="images/pic07.jpg" alt="" /></a>
 											<h3 class="major">Fusce consequat</h3>
 											<p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus ultrices.</p>
 											<a href="#" class="special">Learn more</a>
 										</article>
+									-->
+
 									</section>
-									<ul class="actions">
-										<li><a href="#" class="button">Browse All</a></li>
-									</ul>
 								</div>
 							</section>
 
@@ -155,38 +163,19 @@
 
 				<!-- Footer -->
 					<section id="footer">
-						<div class="inner">
+						<div class="inner" id="get-in-touch">
 							<h2 class="major">Get in touch</h2>
 							<p></p>
-							<form method="post" action="#">
-								<div class="fields">
-									<div class="field">
-										<label for="name">Name</label>
-										<input type="text" name="name" id="name" />
-									</div>
-									<div class="field">
-										<label for="email">Email</label>
-										<input type="email" name="email" id="email" />
-									</div>
-									<div class="field">
-										<label for="message">Message</label>
-										<textarea name="message" id="message" rows="4"></textarea>
-									</div>
-								</div>
-								<ul class="actions">
-									<li><input type="submit" value="Send Message" /></li>
-								</ul>
-							</form>
+							
 							<ul class="contact">
-								<li class="icon solid fa-home">
-									Fort Collins, CO
-								</li>
-								<li class="icon solid fa-phone">(616) 644-2685</li>
-								<li class="icon solid fa-envelope"><a href="#">dalton05@gmail.com</a></li>
-								<li class="icon brands fa-twitter"><a href="#">twitter.com/dalton05</a></li>
+								<li class="icon solid fa-home">Fort Collins, CO</li>
+								<li class="icon solid fa-envelope"><a href="mailto:mitchelljdalton@gmail.com">mitchelljdalton@gmail.com</a></li>
+								<li class="icon brands fa-linkedin"><a href="https://www.linkedin.com/in/mitchdalton/">linkedin.com/in/mitchdalton</a></li>
+								<li class="icon brands fa-github"><a class="fa-brands" href="https://www.github.com/mitchdalton">github.com/mitchdalton</a></li>
+								<li class="icon brands fa-twitter"><a href="https://twitter.com/dalton05">@dalton05</a></li>
 							</ul>
 							<ul class="copyright">
-								<li>&copy; Untitled Inc. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+								<li>&copy; Untitled Inc. All rights reserved.</li><li>Template Design: <a href="http://html5up.net">HTML5 UP</a></li>
 							</ul>
 						</div>
 					</section>
